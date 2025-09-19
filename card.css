@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #3a3a3a;
+}
+
+.geral {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.imagem {
+  overflow: hidden;
+  flex: 0 0 290px;
+  background-color: rgb(0, 0, 0);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.react {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 17px;
+  overflow: hidden;
+  box-shadow: 30px 30px 20px rgba(0, 0, 0, 1);
+}
+
+.node {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  border-radius: 17px;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  box-shadow: 30px 30px 20px rgba(0, 0, 0, 1);
+}
+
+.mongo {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  border-radius: 17px;
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  box-shadow: 30px 30px 20px rgba(0, 0, 0, 1);
+}
+
+h2 {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 20px;
+  color: white;
+}
+
+button {
+  font-size: 20px;
+}
+
+.texto {
+  flex: 1;
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.texto p {
+  min-height: 70px;
+}
+
+.texto button {
+  margin-top: auto;
+}
+
+.react h2 {
+  color: #00bfff;
+}
+
+.react button {
+  background-color: #00bfff;
+}
+
+.node h2 {
+  color: #0ce608;
+}
+
+.node button {
+  background-color: #0ce608;
+}
+
+.mongo h2 {
+  color: #ffa500;
+}
+
+.mongo button {
+  background-color: #ffa500;
+}
+
+button {
+  height: 6vh;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.02s ease;
+}
+
+.react button:hover {
+  background: #006ae6;
+}
+
+.react button:active {
+  background: #0056b3;
+  transform: translateY(1px);
+}
+
+.node button:hover {
+  background-color: #0ac306;
+}
+
+.node button:active {
+  background-color: #08a505;
+  transform: translateY(1px);
+}
+
+.mongo button:hover {
+  background: #e69500;
+}
+
+.mongo button:active {
+  background: #cc8400;
+  transform: translateY(1px);
+}
